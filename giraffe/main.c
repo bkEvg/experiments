@@ -6,9 +6,14 @@
 //
 
 #include <stdio.h>
+int multi(int x, int y);
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    printf("Hello, World!\n%d", multi(43, 5));
     return 0;
+}
+
+int multi(int x, int y) {
+    return x * y;
 }
